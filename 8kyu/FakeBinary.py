@@ -2,6 +2,10 @@
 
 # Note: input will never be an empty string
 
+
+import string
+
+
 def fake_bin(x):
     s = list(x)
     tab = []

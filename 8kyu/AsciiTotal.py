@@ -9,3 +9,6 @@ def uni_total(s):
         return 0
     else:
         return sum([ord(chr) for chr in s])
+
+
+print(uni_total('ifkhchlhfd'))

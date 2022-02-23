@@ -26,4 +26,4 @@
 
 def ice_brick_volume(radius, bottle_length, rim_length):
     cube_h = bottle_length - rim_length
-    return cube_h * radius**2
+    return cube_h * 2*radius**2

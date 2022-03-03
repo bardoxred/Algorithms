@@ -16,12 +16,10 @@
 
 def dont_give_me_five(start,end):
     num = 0
-    for x in range(start, end):
+    for x in range(start, end+1):
         if '5' in str(x):
             continue
         else:
             num+=1
     return num
 
-
-print([x for x in range(0,10)])

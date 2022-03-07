@@ -25,3 +25,4 @@ def calculator(txt):
     left, operator, right = txt.split()
     left, right = len(left), len(right)
     return '.' * eval(f'{left} {operator} {right}')
+
